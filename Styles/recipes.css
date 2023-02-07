@@ -1,0 +1,61 @@
+.head-logo {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.cook-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.cook-logo:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.name > p {
+    color: orange;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 2px;
+}
+
+.Cont {
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.item-image > img {
+    height: 500px;
+    width: 350px;
+    border-radius: 12px;
+}
+
+.item-description  {
+    height: 500px;
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 12px;
+    padding: 6px;
+    overflow: auto;
+}
+
+.item-description > h3 {
+    color: gray;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+.item-description > ol,li,p {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: orange;
+
+}

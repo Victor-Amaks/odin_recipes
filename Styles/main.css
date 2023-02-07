@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-logo {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.cook-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.cook-logo:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.txt > p {
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0;
+    font-family: monospace;
+    font-size: 4rem;
+    color: gray;
+}
+
+.meals-container {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 40px;
+    flex: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.meal {
+    justify-content: space-between;
+}
+.meal-link > img {
+    height: 500px;
+    width: 350px;
+}
+
+.meal-link > img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 14px;
+    border: 2px solid orange ;
+    cursor: pointer;
+}
+
+.meal > p {
+    font-family: Arial;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    color: gray;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 1rem;
+    padding: 2px;
+}
+
+
+
+
+
+
+
